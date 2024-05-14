@@ -35,7 +35,12 @@ pip install git+https://github.com/princeton-vl/lietorch.git
 
 
 ## Data
-Please find our example data on [Google Drive](https://drive.google.com/drive/folders/1EzhrEBCEHCSF3jtRwMXQpqF9wgh4KlPD?usp=drive_link).
+Please find our example data on [Google Drive](https://drive.google.com/drive/folders/1EzhrEBCEHCSF3jtRwMXQpqF9wgh4KlPD?usp=drive_link) and [DropBox](https://www.dropbox.com/scl/fo/nc61inva76a40u934iit0/AAywA7NXF1adODJRnJT2gJI?rlkey=bw4p3ut569ngiml6x5o286zp5&st=jgv98hvj&dl=0).
+### Make your own data
+Please put your RAW images subfolder named "raw". To make COLMAP less struggle, I gamma curve/manually increase the brightness of the raw images for feature extraction and matching. These corrected images are put in "input" subfolder. We only use "raw" images to build DarkGS.
+```
+python3 convert.py -s <path to your own dataset>
+```
 
 ## Quick Start
 Train
