@@ -63,29 +63,36 @@ class ModelParams(ParamGroup):
 
 class PipelineParams(ParamGroup):
     def __init__(self, parser):
-        self.convert_SHs_python = False
+        # self.convert_SHs_python = False
+        # self.compute_cov3D_python = False
+        self.convert_SHs_python = True
         self.compute_cov3D_python = False
         self.debug = False
         super().__init__(parser, "Pipeline Parameters")
 
 class OptimizationParams(ParamGroup):
     def __init__(self, parser):
+        self.warmup_start_itr = 1000
+        self.warmup_until_itr = 2000
         self.iterations = 30_000
         self.position_lr_init = 0.00016
         self.position_lr_final = 0.0000016
         self.position_lr_delay_mult = 0.01
         self.position_lr_max_steps = 30_000
-        self.feature_lr = 0.0025
+        # self.feature_lr = 0.0025
+        self.albedo_lr = 0.05
+        self.normal_lr = 0.05
         self.opacity_lr = 0.05
         self.scaling_lr = 0.005
         self.rotation_lr = 0.001
         self.percent_dense = 0.01
         self.lambda_dssim = 0.2
-        self.densification_interval = 100
-        self.opacity_reset_interval = 3000
-        self.densify_from_iter = 500
-        self.densify_until_iter = 15_000
-        self.densify_grad_threshold = 0.0002
+        self.densification_interval = 300
+        self.opacity_reset_interval = 5000
+        self.densify_from_iter = 2000
+        self.densify_until_iter = 15001
+        self.densify_grad_threshold = 0.0002 # default 0.0002
+        self.shader_optimize_until = 9000
         self.random_background = False
         super().__init__(parser, "Optimization Parameters")
 
