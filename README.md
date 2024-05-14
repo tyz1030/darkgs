@@ -22,6 +22,11 @@ Conda environment setup
 conda env create --file environment.yml
 conda activate darkgs
 ```
+Also need to install lietorch
+```
+pip install git+https://github.com/princeton-vl/lietorch.git
+```
+
 Train
 ```
 python train.py -s <path to COLMAP or NeRF Synthetic dataset>
