@@ -63,4 +63,4 @@ Then you will be able to steer your light cone by pressing "JKLI" on the keyboar
 
 ## Acknowledgement
 * This work is supported by NOAA.
-* Copyright 2024 Kaining Huang and Tianyi Zhang, Carnegie Mellon University. All rights reserved.
+* Copyright 2024 Tianyi Zhang, Carnegie Mellon University. All rights reserved.
