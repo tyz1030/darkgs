@@ -1,5 +1,13 @@
 # DarkGS: Learning Neural Illumination and 3D Gaussians Relighting for Robotic Exploration in the Dark
 
+Novel-view rendering: Simulating a light cone and re-illuminating the environment.
+<p align="center">
+  <a href="">
+    <img src="darkgs.gif" alt="Logo" width="100%">
+  </a>
+</p>
+
+
 ## Install
 Installation generally follows vanilla Gaussian Splatting installation.
 ```
@@ -14,6 +22,11 @@ Conda environment setup
 conda env create --file environment.yml
 conda activate darkgs
 ```
+Also need to install lietorch
+```
+pip install git+https://github.com/princeton-vl/lietorch.git
+```
+
 Train
 ```
 python train.py -s <path to COLMAP or NeRF Synthetic dataset>
