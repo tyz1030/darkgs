@@ -2,10 +2,13 @@
 
 > "Even with these dark eyes, a gift of the dark night, I go to seek the shining light."   --Gu Cheng 1956-1993
 
-
+<p align="center">
+    <img src="cmu_ri_logo.png" alt="Logo" width="40%"">   
+    <img src="NOAA_logo_mobile.svg" alt="Logo" width="25%">
+  </a>
+</p>
 Novel-view rendering: Simulating a light cone and re-illuminating the environment.
 <p align="center">
-  <a href="">
     <img src="darkgs.gif" alt="Logo" width="100%">
   </a>
 </p>
