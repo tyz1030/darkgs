@@ -7,12 +7,15 @@
     <img src="NOAA_logo_mobile.svg" alt="Logo" width="25%">
   </a>
 </p>
-Novel-view rendering: Simulating a light cone and re-illuminating the environment.
+
+### Novel-view rendering: Simulating a light cone and re-illuminating the environment.
 <p align="center">
     <img src="darkgs.gif" alt="Logo" width="100%">
   </a>
 </p>
 
+### Sister Repo for Camera-Light calibration
+The sister repo Neural Light Simulator for light-camera calibration is [here](https://github.com/tyz1030/neuralight). 
 
 ## Install
 Installation generally follows vanilla Gaussian Splatting installation.
