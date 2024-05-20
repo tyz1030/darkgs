@@ -9,6 +9,7 @@
 </p>
 
 ### Novel-view rendering: Simulating a light cone and re-illuminating the environment.
+Please check our [videos](https://www.linkedin.com/posts/tianyi-zhang-396b0a186_darkgs-building-3d-gaussians-with-a-torch-activity-7197672371393019905-iY2-?utm_source=share&utm_medium=member_desktop) ([Bilibili](https://www.bilibili.com/video/BV1Euu4eqEtN/?vd_source=ccc6b1a36055375ca812070948900795#reply222119730496)).
 <p align="center">
     <img src="darkgs.gif" alt="Logo" width="100%">
   </a>
