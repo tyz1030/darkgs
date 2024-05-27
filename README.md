@@ -7,12 +7,16 @@
     <img src="NOAA_logo_mobile.svg" alt="Logo" width="25%">
   </a>
 </p>
-Novel-view rendering: Simulating a light cone and re-illuminating the environment.
+
+### Novel-view rendering: Simulating a light cone and re-illuminating the environment.
+Please check our [videos](https://www.linkedin.com/posts/tianyi-zhang-396b0a186_darkgs-building-3d-gaussians-with-a-torch-activity-7197672371393019905-iY2-?utm_source=share&utm_medium=member_desktop) ([Bilibili](https://www.bilibili.com/video/BV1Euu4eqEtN/?vd_source=ccc6b1a36055375ca812070948900795#reply222119730496)).
 <p align="center">
     <img src="darkgs.gif" alt="Logo" width="100%">
   </a>
 </p>
 
+### Sister Repo for Camera-Light calibration
+The sister repo Neural Light Simulator for light-camera calibration is [here](https://github.com/tyz1030/neuralight). 
 
 ## Install
 Installation generally follows vanilla Gaussian Splatting installation.
@@ -36,11 +40,13 @@ pip install git+https://github.com/princeton-vl/lietorch.git
 
 ## Data
 Please find our example data on [Google Drive](https://drive.google.com/drive/folders/1EzhrEBCEHCSF3jtRwMXQpqF9wgh4KlPD?usp=drive_link) and [DropBox](https://www.dropbox.com/scl/fo/nc61inva76a40u934iit0/AAywA7NXF1adODJRnJT2gJI?rlkey=bw4p3ut569ngiml6x5o286zp5&st=jgv98hvj&dl=0).
-### Make your own data
+#### Make your own data
 Please put your RAW images subfolder named "raw". To make COLMAP less struggle, I gamma-curved/manually increased the brightness of the raw images for feature extraction and matching. These corrected images are put in "input" subfolder. We only use "raw" images to build DarkGS.
 ```
 python3 convert.py -s <path to your own dataset>
 ```
+## Light Calibration
+If you are using your own light-camera setup, please calibrate your system using [neural light simulator](https://github.com/tyz1030/neuralight). Then put model_parameters.pth in the root directory. 
 
 ## Quick Start
 Train
