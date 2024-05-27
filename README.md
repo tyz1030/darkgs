@@ -57,7 +57,16 @@ Visualize with SIRB viewer:
 ```
 ./SIBR_remoteGaussian_app
 ```
-Then you will be able to steer your light cone by pressing "JKLI" on the keyboard.
+Then you will be able to steer your light cone by pressing "JKLI" on the keyboard.\
+#### Visualize (a checkpoint) after training:
+SIBR_gaussianViewer_app is not compatible with this repo. Please try the following:
+```
+python3 viz_chkpt.py -s data/lab1/ -m output/<xxxxxx-xxx> --start_checkpoint output/<xxxxxx-xxx>/chkpnt30000.pth
+```
+then in another terminal
+```
+./SIBR_remoteGaussian_app
+```
 
 ## Cite
 [Arxiv](https://arxiv.org/abs/2403.10814)
