@@ -68,6 +68,12 @@ then in another terminal
 ./SIBR_remoteGaussian_app
 ```
 
+#### Relighting (I'm working on the release)
+Meanwhile, there is no one-true-solution to relighting.
+I have ADHD symptoms, so please forgive my slow progress.
+
+
+
 ## Cite
 [Arxiv](https://arxiv.org/abs/2403.10814)
 ```
