@@ -76,16 +76,14 @@ One quick hack through is when running viz_chkpt.py, uncomment line 129 in scene
 
 
 ## Cite
+This work is picked up by IROS 2024 as oral presentation!
 [Arxiv](https://arxiv.org/abs/2403.10814)
 ```
-@misc{zhang2024darkgs,
-      title={DarkGS: Learning Neural Illumination and 3D Gaussians Relighting for Robotic Exploration in the Dark}, 
-      author={Tianyi Zhang and Kaining Huang and Weiming Zhi and Matthew Johnson-Roberson},
-      year={2024},
-      eprint={2403.10814},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@INPROCEEDINGS{zhang2024darkgs,
+  author={Tianyi Zhang and Kaining Huang and Weiming Zhi and Matthew Johnson-Roberson},
+  booktitle={2024 International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={DarkGS: Learning Neural Illumination and 3D Gaussians Relighting for Robotic Exploration in the Dark}, 
+  year={2024}}
 ```
 
 ## Acknowledgement
