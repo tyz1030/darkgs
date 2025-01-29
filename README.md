@@ -70,7 +70,6 @@ then in another terminal
 
 #### Relighting (I'm working on the release)
 Meanwhile, there is no one-true-solution to relighting.\
-I have ADHD symptoms, so please forgive my slow progress.\
 One quick hack through is when running viz_chkpt.py, uncomment line 129 in scene/lighting.py. And you will also need to brighten, white balance and gamma correct the final render results to make it look good otherwise it is in blue-greenish RAW format.
 
 
